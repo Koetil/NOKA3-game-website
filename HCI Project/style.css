@@ -1,0 +1,313 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/07/Gaming-PC-Wallpaper-HD.png?fit=3840%2C2160&ssl=1)  no-repeat center center fixed;
+    background-size: cover;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #f59e1c;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover{
+    color: #080889;
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: consolas;
+    color: #d87093;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: consolas;
+    color: palevioletred;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+h2{
+    font-family: consolas;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+a.tombol{
+    background: orange;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: consolas;
+}
+
+a.tombol:hover{
+    background: rgb(217, 144, 9);
+}
+
+#social{
+    background: rgb(244, 158, 29);
+    padding: 50px 0px 50 px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    width: 100%;
+    line-height: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    font-family: consolas;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+h4{
+    font-family: consolas;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+h5{
+    width: 100%;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: consolas;
+    margin-bottom: 30px;
+    color: white;
+}
+
+h5:hover{
+    text-decoration: underline;
+}
+
+h6{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: consolas;
+    color: white;
+}
+
+#copyright{
+    background-color:rgb(244, 158, 29);
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    padding: 20px 0px 30px 0px;
+    color: white;
+}
+
+
+.reg{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container .title{
+    height: 50px;
+    font-weight: 600;
+    font-size: 25px ;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.container .title::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    height: 3px;
+    width: 150px;
+    background-color: #4c36cd;
+
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+
+}
+
+form .user-details .inputBox{
+    margin-bottom: 15px;
+    width: calc(100%/2 - 20px);
+}
+
+form .user-details .checkBox{
+    
+    position: relative;
+    width: calc(100%/2 - 20px);
+    
+}
+
+.container nav{
+    position: relative;
+}
+
+.user-details .inputBox input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border-color: #24247e;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+}
+
+.user-details .inputBox input:focus{
+    border-color: blue ;
+}
+
+
+.user-details .inputBox button{
+    width: 40%;
+    height: 35px;
+    font-weight: 500;
+    background:linear-gradient(150deg,#ffa500, #521cbe);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins';
+}
+
+.user-details .inputBox button:hover{
+    background: #403e66;
+}
+
+.container{
+max-width: 700px;
+width: 100%;
+background: #303035;
+padding: 30px 30px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+color: azure;
+position: -webkit-sticky;
+}
+
+#error{
+    color: red;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
